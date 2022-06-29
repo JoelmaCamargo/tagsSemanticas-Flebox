@@ -1,0 +1,17 @@
+/* FLEXBOX */
+
+
+.flex-container{
+    display: flex; 
+    background-color: gold;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container > div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
